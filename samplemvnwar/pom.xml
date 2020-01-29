@@ -22,5 +22,20 @@
   </dependencies>
   <build>
     <finalName>samplemvnwar</finalName>
+    <plugins>
+                <plugin>
+                                <groupId>org.apache.tomcat.maven</groupId>
+                                <artifactId>tomcat7-maven-plugin</artifactId>
+                                <version>2.2</version>
+                <configuration>
+                                <url>http://13.235.48.84:8080/manager/text</url>
+                                <server>tomcat8_vy</server>
+                                <username>arpan</username>
+                                <password>test@123</password>
+                                <path>/hello</path>
+                        </configuration>
+                </plugin>
+   </plugins>
+
   </build>
 </project>
