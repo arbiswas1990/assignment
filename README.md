@@ -4,7 +4,8 @@ What is this?
 In the interest of saving everyone's time, we use homework assignments to pre-qualify DevOps Engineer candidates. This lets us be objective during the interviews and focus on the candidate's ability to solve complex problems and defend their choice of technology or approach. We also evaluate how candidates handle stress, time pressure, criticism and scrutiny from peers, management or operations teams.
 
 
-Assignment
+Assignment:
+
 As a member of the development team your mission is to ensure:
 
 Application (a simple java maven app that responds with "Hello World!" to anyone who visits it) is reasonably resilient and a single node failure does not affect end users.
